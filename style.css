@@ -8,11 +8,12 @@ body {
   background-color: #CCCCFF;
   animation-name: textLarge;
   animation-name: colourChange;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   display: flex;
   align-items: center;
   justify-content: center;
+  animation-direction: alternate;
 }
 
 @keyframes colourChange {
