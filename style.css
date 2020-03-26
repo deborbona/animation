@@ -30,4 +30,12 @@ body {
   font-size: 50pt;
   font-style: italic;
   font-family: sans-serif;
+  transition: width 1s, height 1s, transform 1s;
+}
+
+.woof:hover {
+  font-size: 50pt;
+  font-style: italic;
+  font-family: sans-serif;
+  transform: rotate(180deg);
 }
