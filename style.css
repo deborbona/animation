@@ -1,0 +1,32 @@
+body {
+  background-color: #ffffff;
+}
+
+.mainContainer {
+  margin: 50px;
+  padding: 50px;
+  background-color: #CCCCFF;
+  animation-name: textLarge;
+  animation-name: colourChange;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes colourChange {
+  from {background-color: #CCCCFF;}
+  to {background-color:#ffb347;}
+}
+
+.doggo {
+  border: 20px;
+  border-color: #ffffff;
+}
+
+.woof {
+  font-size: 50pt;
+  font-style: italic;
+  font-family: sans-serif;
+}
